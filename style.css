@@ -76,3 +76,11 @@ header
 .topnav .icon {
   display: none;
 }
+.buttonDesign
+{
+background-color: #643de6;  
+  font-weight: 700;
+  border: none;
+  height: 21px;
+  
+}
