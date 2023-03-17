@@ -8,7 +8,7 @@ function goTo() {
   }
 }
 
-document.querySelector("input").onkeydown = e => {
+document.querySelector("#input").onkeydown = e => {
   if (e.key == "Enter") {
     goTo();
   }

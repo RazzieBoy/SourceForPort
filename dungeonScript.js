@@ -8,7 +8,7 @@ function goTo() {
   }
 }
 
-document.querySelector("dungeonInput").onkeydown = e => {
+document.querySelector("#dungeonInput").onkeydown = e => {
   if (e.key == "Enter") {
     goTo();
   }
