@@ -42,45 +42,19 @@ header
   margin-left: 2rem;
   color: #ddc4f3;
 }
-
-/* Add a black background color to the top navigation */
-.topnav {
-  background-color: #333;
-  overflow: hidden;
-}
-
-/* Style the links inside the navigation bar */
-.topnav a {
-  float: left;
-  display: block;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-}
-
-/* Change the color of links on hover */
-.topnav a:hover {
-  background-color: #ddd;
-  color: black;
-}
-
-/* Add an active class to highlight the current page */
-.topnav a.active {
-  background-color: #04AA6D;
-  color: white;
-}
-
-/* Hide the link that should open and close the topnav on small screens */
-.topnav .icon {
-  display: none;
-}
 .buttonDesign
 {
-background-color: #643de6;  
+  background-color: #643de6;  
   font-weight: 700;
   border: none;
   height: 21px;
-  
+}
+.rasmusDefiniton
+{
+  display:  grid;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  color: #ddc4f3;
+  grid-template-columns: 1fr 1fr 1fr;
+  text-align: center;
 }
