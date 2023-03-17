@@ -4,7 +4,7 @@ function goTo() {
     window.location = 'https://HellHole.rasmusnordberg2.repl.co';
   }
   if (inputValue === "Dungeon") {
-    window.location = 'https://rasmus.gay/dungeon.html';
+    window.location = '/dungeon.html';
   }
 }
 
