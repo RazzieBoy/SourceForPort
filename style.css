@@ -49,6 +49,10 @@ header
   border: none;
   height: 21px;
 }
+.buttonDesign:hover
+{
+background-color: #4224a3;    
+}
 .rasmusDefiniton
 {
   display:  grid;
