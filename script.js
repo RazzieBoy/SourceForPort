@@ -3,7 +3,7 @@ function goTo() {
   if (inputValue === "Hell") {
     window.location = 'https://HellHole.rasmusnordberg2.repl.co';
   }
-  if (inputValue === "Dungeon") {
+  if (inputValue === "Projects") {
     window.location = '/dungeon.html';
   }
 }
