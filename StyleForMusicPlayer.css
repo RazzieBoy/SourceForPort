@@ -1,0 +1,31 @@
+body
+{
+    padding: 0 !important;
+}
+.coverImage
+{
+    height: 896px;
+    position: fixed;
+    left: -250px;
+}
+.thirtypxIMG
+{
+    height: 30px;
+    position: absolute;
+    top: 20px;
+    left: 15px;
+}
+.size
+{
+    height: 50px;
+}
+.musicButtons
+{
+    position: absolute;
+    display: flex; 
+    height: 896px; 
+    align-items: center; 
+    justify-content: space-between; 
+    right: 20px;
+    left: 20px;
+}
