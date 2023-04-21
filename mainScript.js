@@ -6,6 +6,9 @@ function goTo() {
   if (inputValue === "Projects") {
     window.location = '/dungeon.html';
   }
+  if (inputValue === "Phone") {
+    window.location = '/phone.html';
+  }
 }
 
 document.querySelector("#input").onkeydown = e => {
