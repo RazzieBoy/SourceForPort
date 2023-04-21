@@ -29,3 +29,21 @@ body
     right: 20px;
     left: 20px;
 }
+.waveformContainer
+{
+    position: fixed;
+    bottom: 200px;
+    overflow-x: scroll;
+    left: 0;
+    right: 0;
+}
+.waveformContainer img
+{
+    width: 800px;
+    height: 80px;
+    padding: 0 50%;
+}
+.waveformContainer::-webkit-scrollbar
+{
+    display: none;
+}

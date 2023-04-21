@@ -1,4 +1,4 @@
-const audio = new Audio("/sounds/Sweet Tangerine.mp3");
+const audio = new Audio("/sounds/Mina områden.mp3");
 
 function togglePlay() 
 {
@@ -9,6 +9,16 @@ function togglePlay()
     {
         audio.pause();
     }
+}
+
+if (document.querySelector(".waveformContainer"))
+{
+    const waveform = document.querySelector(".waveformContainer");
+    setInterval(() => {
+        if (!audio.paused) {
+            waveform.scroll(waveform.scrollLeft + 1, 0);
+        }
+    }, 50);
 }
 
 const thumbnails = [
@@ -222,5 +232,6 @@ img.addEventListener('click', function()
     {
         img.src = 'assets\\pause.png';
     }
+    console.log("toggleplay");
     
 })
