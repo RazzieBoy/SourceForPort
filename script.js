@@ -40,7 +40,7 @@ const thumbnails = [
     "songIMG.png",
     "Virtual Self.webp",
     "Void.webp",
-    "Hov1.png"
+    "hov1.png"
 ]
 
 document.querySelectorAll(".albumImage").forEach(element => {
@@ -128,11 +128,12 @@ const playAndLikes = [
     "Lifeline.webp",
     "Party Girls.jpg",
     "Round Table Reinforcements 1.jpg",
-    "Show me.webp",
+    "Show Me.webp",
     "Skin.jpg",
     "songIMG.png",
     "Virtual Self.webp",
-    "Void.webp"
+    "Void.webp",
+    "hov1.png"
 ]
 
 document.querySelectorAll(".LikeThePlays").forEach(element => {
