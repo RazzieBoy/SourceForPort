@@ -7,7 +7,7 @@ function goTo() {
     window.location = '/dungeon.html';
   }
   if (inputValue === "Phone" ||inputValue === "phone") {
-    window.location = '/phone.html';
+    window.location = '/phone/phone.html';
   }
   if (inputValue === "Story" ||inputValue === "story") {
     window.location = 'https://docs.google.com/document/d/1Tg6YNkX3W-QoCLRfZDASUulvu-HtHWTxqMG0KDDiL8I/edit?usp=sharingl';
